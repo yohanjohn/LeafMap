@@ -2,9 +2,4 @@ pandas
 folium
 streamlit
 streamlit-folium
-ipywidgets
-jupyter
 branca
-geopandas
-shapely
-pyogrio
