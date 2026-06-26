@@ -1,0 +1,95 @@
+leaf_id,leaf_name,country,admin1,region_label,latitude,longitude,usage_score,confidence,example_dishes,notes,source_type
+curry_leaves,Curry leaves,India,Kerala,South India,10.8505,76.2711,0.98,high,sambar; rasam; thoran; avial,Iconic everyday tempering leaf in Kerala cooking,llm_seeded_curated
+curry_leaves,Curry leaves,India,Tamil Nadu,South India,11.1271,78.6569,0.97,high,sambar; rasam; kootu; chutney,Central to Tamil tempering and lentil dishes,llm_seeded_curated
+curry_leaves,Curry leaves,India,Karnataka,South India,15.3173,75.7139,0.93,high,bisi bele bath; saaru; chutney,Very common in Karnataka home cooking,llm_seeded_curated
+curry_leaves,Curry leaves,India,Andhra Pradesh,South India,15.9129,79.74,0.92,high,pappu; pulusu; chutney,Frequent in Andhra tempering and pickles,llm_seeded_curated
+curry_leaves,Curry leaves,India,Telangana,South India,18.1124,79.0193,0.88,high,pappu; rasam; chutney,Common in Telugu cooking,llm_seeded_curated
+curry_leaves,Curry leaves,Sri Lanka,Western Province,Sri Lanka,6.827,80.083,0.91,high,curry; sambol; dal,Common aromatic in Sri Lankan curries,llm_seeded_curated
+curry_leaves,Curry leaves,Sri Lanka,Central Province,Sri Lanka,7.333,80.75,0.86,medium,curry; mallung; dal,Common in regional curry preparations,llm_seeded_curated
+curry_leaves,Curry leaves,Malaysia,Selangor,Malay Indian diaspora,3.0738,101.5183,0.66,medium,fish curry; dalcha; sambal,Used in South Indian-influenced Malaysian cooking,llm_seeded_curated
+mint,Mint,India,Delhi,North India,28.7041,77.1025,0.86,high,mint chutney; biryani; chaats,Common fresh herb in chutneys and snacks,llm_seeded_curated
+mint,Mint,India,Punjab,North India,31.1471,75.3412,0.82,high,mint chutney; raita; kebabs,Common in chutneys and accompaniments,llm_seeded_curated
+mint,Mint,India,Uttar Pradesh,North India,26.8467,80.9462,0.8,high,pudina chutney; biryani; chaats,Frequent in street food and home cooking,llm_seeded_curated
+mint,Mint,India,Jammu and Kashmir,North India,33.2778,75.3412,0.75,medium,chutney; kahwa accompaniments; meat dishes,Used as cooling herb in regional dishes,llm_seeded_curated
+mint,Mint,Pakistan,Punjab,Punjab,31.1704,72.7097,0.82,high,raita; chutney; biryani,Common fresh herb in Punjabi Pakistani cooking,llm_seeded_curated
+mint,Mint,Pakistan,Sindh,Sindh,25.8943,68.5247,0.74,medium,biryani; chutney; raita,Common in biryani and condiments,llm_seeded_curated
+mint,Mint,Morocco,Marrakesh-Safi,Maghreb,31.6295,-7.9811,0.88,high,mint tea; salads; tagines,Iconic in Moroccan mint tea and cooking,llm_seeded_curated
+mint,Mint,Lebanon,Mount Lebanon,Levant,33.8101,35.5973,0.85,high,tabbouleh; fattoush; labneh,Common fresh herb in Levantine salads,llm_seeded_curated
+mint,Mint,Turkey,Istanbul,Mediterranean and Anatolia,41.0082,28.9784,0.7,medium,yogurt sauces; dolma; tea,Used fresh and dried in Turkish food,llm_seeded_curated
+mint,Mint,United Kingdom,England,Western Europe,52.3555,-1.1743,0.55,medium,mint sauce; peas; lamb,Recognizable but less broadly defining than in South Asia or MENA,llm_seeded_curated
+parsley,Parsley,Lebanon,Mount Lebanon,Levant,33.8101,35.5973,0.96,high,tabbouleh; fattoush; grilled meats,Foundational fresh herb in Levantine salads,llm_seeded_curated
+parsley,Parsley,Syria,Damascus Governorate,Levant,33.5138,36.2765,0.9,high,tabbouleh; kibbeh; salads,Common in Levantine herb-heavy dishes,llm_seeded_curated
+parsley,Parsley,Turkey,Istanbul,Mediterranean and Anatolia,41.0082,28.9784,0.86,high,piyaz; köfte garnish; salads,Widely used fresh herb and garnish,llm_seeded_curated
+parsley,Parsley,Greece,Attica,Eastern Mediterranean,37.9838,23.7275,0.82,high,spanakopita; salads; sauces,Common Mediterranean herb,llm_seeded_curated
+parsley,Parsley,Italy,Lazio,Mediterranean Europe,41.9028,12.4964,0.8,high,pasta sauces; seafood; salsa verde,Widely used in central Italian cooking,llm_seeded_curated
+parsley,Parsley,France,Île-de-France,Western Europe,48.8566,2.3522,0.72,medium,persillade; soups; sauces,Common classical herb and garnish,llm_seeded_curated
+parsley,Parsley,Morocco,Casablanca-Settat,Maghreb,33.5731,-7.5898,0.8,high,tagines; chermoula; salads,Common with cilantro in Moroccan cooking,llm_seeded_curated
+parsley,Parsley,Egypt,Cairo Governorate,Middle East,30.0444,31.2357,0.76,medium,salads; kofta; ful accompaniments,Frequent fresh herb in Egyptian dishes,llm_seeded_curated
+basil,Basil,Italy,Liguria,Mediterranean Europe,44.4056,8.9463,0.96,high,pesto genovese; pasta; focaccia,Iconic basil region via pesto,llm_seeded_curated
+basil,Basil,Italy,Campania,Mediterranean Europe,40.8518,14.2681,0.88,high,pizza margherita; tomato salads; pasta,Strong association with tomato and Neapolitan food,llm_seeded_curated
+basil,Basil,Thailand,Central Thailand,Southeast Asia,13.7563,100.5018,0.95,high,pad kra pao; curries; stir-fries,Thai basil and holy basil are central herbs,llm_seeded_curated
+basil,Basil,Thailand,Northeast Thailand,Southeast Asia,15.87,104.35,0.85,medium,larb; soups; stir-fries,Common aromatic in regional Thai dishes,llm_seeded_curated
+basil,Basil,Vietnam,Ho Chi Minh City,Southeast Asia,10.8231,106.6297,0.82,high,pho herbs; salads; rice paper rolls,Common fresh table herb,llm_seeded_curated
+basil,Basil,Vietnam,Hanoi,Southeast Asia,21.0278,105.8342,0.76,medium,pho herbs; bun; salads,Frequent fresh herb though regional varieties differ,llm_seeded_curated
+basil,Basil,Laos,Vientiane Prefecture,Southeast Asia,17.9757,102.6331,0.74,medium,laap; soups; herb platters,Common in herb-forward Lao food,llm_seeded_curated
+basil,Basil,France,Provence-Alpes-Côte d'Azur,Mediterranean Europe,43.9352,6.0679,0.66,medium,pistou; soups; salads,Regional Mediterranean basil use,llm_seeded_curated
+cilantro,Coriander/cilantro leaves,India,Rajasthan,North India,27.0238,74.2179,0.86,high,chutney; dal garnish; sabzi,Very common fresh garnish and chutney herb,llm_seeded_curated
+cilantro,Coriander/cilantro leaves,India,Maharashtra,West India,19.7515,75.7139,0.88,high,kothimbir vadi; chutney; poha,Common and sometimes primary ingredient,llm_seeded_curated
+cilantro,Coriander/cilantro leaves,India,Gujarat,West India,22.2587,71.1924,0.86,high,chutney; farsan; shaak,Common garnish and chutney leaf,llm_seeded_curated
+cilantro,Coriander/cilantro leaves,Mexico,Jalisco,Western Mexico,20.6597,-103.3496,0.9,high,tacos; salsas; pozole,Core fresh herb in many Mexican dishes,llm_seeded_curated
+cilantro,Coriander/cilantro leaves,Mexico,CDMX,Central Mexico,19.4326,-99.1332,0.92,high,tacos; salsas; soups,Ubiquitous in street food and salsas,llm_seeded_curated
+cilantro,Coriander/cilantro leaves,Thailand,Central Thailand,Southeast Asia,13.7563,100.5018,0.78,high,soups; salads; curries,Common fresh herb and garnish,llm_seeded_curated
+cilantro,Coriander/cilantro leaves,Vietnam,Ho Chi Minh City,Southeast Asia,10.8231,106.6297,0.8,high,pho herbs; banh mi; salads,Common in herb plates and sandwiches,llm_seeded_curated
+cilantro,Coriander/cilantro leaves,China,Yunnan,Southwest China,25.0453,102.7097,0.75,medium,noodle dishes; salads; hotpot,Especially common in southwestern cuisines,llm_seeded_curated
+cilantro,Coriander/cilantro leaves,Morocco,Casablanca-Settat,Maghreb,33.5731,-7.5898,0.82,high,chermoula; tagines; soups,Often paired with parsley,llm_seeded_curated
+bay_leaves,Bay leaves,India,Uttar Pradesh,North India,26.8467,80.9462,0.75,high,biryani; pulao; korma,Indian bay leaf is common in rice and gravies,llm_seeded_curated
+bay_leaves,Bay leaves,India,West Bengal,East India,22.9868,87.855,0.78,high,dal; pulao; fish curries,Tej patta common in Bengali cooking,llm_seeded_curated
+bay_leaves,Bay leaves,Nepal,Bagmati Province,Himalayan South Asia,27.7172,85.324,0.68,medium,pulao; dal; curries,Used in spiced rice and curries,llm_seeded_curated
+bay_leaves,Bay leaves,Turkey,Istanbul,Mediterranean and Anatolia,41.0082,28.9784,0.72,high,stews; pilaf; pickles,Mediterranean bay is common in Turkish cooking,llm_seeded_curated
+bay_leaves,Bay leaves,Greece,Attica,Eastern Mediterranean,37.9838,23.7275,0.7,medium,stews; lentils; sauces,Common in Mediterranean stews,llm_seeded_curated
+bay_leaves,Bay leaves,Italy,Tuscany,Mediterranean Europe,43.7711,11.2486,0.68,medium,braises; beans; sauces,Traditional aromatic in slow cooking,llm_seeded_curated
+bay_leaves,Bay leaves,Jamaica,Surrey County,Caribbean,18.0179,-76.8099,0.62,medium,rice and peas; stews; soups,Used in Caribbean savory dishes,llm_seeded_curated
+kaffir_lime_leaves,Kaffir lime leaves,Thailand,Central Thailand,Southeast Asia,13.7563,100.5018,0.94,high,tom yum; green curry; red curry,Core citrus aromatic in Thai cuisine,llm_seeded_curated
+kaffir_lime_leaves,Kaffir lime leaves,Thailand,Northeast Thailand,Southeast Asia,15.87,104.35,0.82,medium,soups; salads; curries,Common in regional Thai aromatics,llm_seeded_curated
+kaffir_lime_leaves,Kaffir lime leaves,Laos,Vientiane Prefecture,Southeast Asia,17.9757,102.6331,0.82,high,laap; soups; stews,Common citrus leaf aromatic,llm_seeded_curated
+kaffir_lime_leaves,Kaffir lime leaves,Cambodia,Phnom Penh,Southeast Asia,11.5564,104.9282,0.78,high,amok; kroeung; soups,Important in Khmer spice pastes,llm_seeded_curated
+kaffir_lime_leaves,Kaffir lime leaves,Malaysia,Selangor,Southeast Asia,3.0738,101.5183,0.76,high,rendang; laksa; sambal,Common in Malay and Peranakan dishes,llm_seeded_curated
+kaffir_lime_leaves,Kaffir lime leaves,Indonesia,West Java,Southeast Asia,-6.9175,107.6191,0.74,medium,soto; rendang variants; sambal,Known as daun jeruk in Indonesian cooking,llm_seeded_curated
+kaffir_lime_leaves,Kaffir lime leaves,Indonesia,West Sumatra,Southeast Asia,-0.7399,100.8000,0.8,high,rendang; gulai; sambal,Frequent in Minangkabau aromatics,llm_seeded_curated
+banana_leaves,Banana leaves,India,Kerala,South India,10.8505,76.2711,0.95,high,sadya; steamed fish; ada,Used for serving feasts and steaming,llm_seeded_curated
+banana_leaves,Banana leaves,India,Tamil Nadu,South India,11.1271,78.6569,0.92,high,meals; idli steaming; kozhukattai,Common serving and steaming leaf,llm_seeded_curated
+banana_leaves,Banana leaves,Sri Lanka,Western Province,Sri Lanka,6.827,80.083,0.84,high,lamprais; steamed parcels; rice meals,Important for wrapping and aroma,llm_seeded_curated
+banana_leaves,Banana leaves,Indonesia,Bali,Southeast Asia,-8.3405,115.092,0.88,high,pepes; tum; nasi campur,Common wrapper and steaming leaf,llm_seeded_curated
+banana_leaves,Banana leaves,Indonesia,West Java,Southeast Asia,-6.9175,107.6191,0.86,high,pepes; lontong; nasi timbel,Widely used in Sundanese and Javanese foods,llm_seeded_curated
+banana_leaves,Banana leaves,Malaysia,Selangor,Southeast Asia,3.0738,101.5183,0.8,high,nasi lemak; otak-otak; banana leaf rice,Common in Malay and Indian Malaysian food,llm_seeded_curated
+banana_leaves,Banana leaves,Philippines,Calabarzon,Southeast Asia,14.1008,121.0794,0.78,medium,suman; bibingka; grilled fish,Common wrapper and cooking surface,llm_seeded_curated
+banana_leaves,Banana leaves,Mexico,Yucatán,Mesoamerica,20.7099,-89.0943,0.72,medium,cochinita pibil; tamales,Used for wrapping regional foods,llm_seeded_curated
+pandan,Pandan,Indonesia,West Java,Southeast Asia,-6.9175,107.6191,0.88,high,kue; rice; drinks,Common sweet and rice aromatic,llm_seeded_curated
+pandan,Pandan,Indonesia,Bali,Southeast Asia,-8.3405,115.092,0.78,medium,desserts; rice; drinks,Common in sweets and ceremonial foods,llm_seeded_curated
+pandan,Pandan,Malaysia,Selangor,Southeast Asia,3.0738,101.5183,0.9,high,nasi lemak; kuih; kaya,Iconic sweet and rice aromatic,llm_seeded_curated
+pandan,Pandan,Singapore,Central Region,Southeast Asia,1.3521,103.8198,0.86,high,pandan cake; kaya; nasi lemak,Very recognizable in local sweets,llm_seeded_curated
+pandan,Pandan,Thailand,Central Thailand,Southeast Asia,13.7563,100.5018,0.8,high,desserts; pandan chicken; drinks,Common aromatic in sweets and some savory dishes,llm_seeded_curated
+pandan,Pandan,Vietnam,Ho Chi Minh City,Southeast Asia,10.8231,106.6297,0.72,medium,chè; sticky rice; cakes,Used in sweets and drinks,llm_seeded_curated
+pandan,Pandan,Philippines,Calabarzon,Southeast Asia,14.1008,121.0794,0.7,medium,buko pandan; rice cakes; desserts,Common dessert flavor,llm_seeded_curated
+pandan,Pandan,Sri Lanka,Western Province,Sri Lanka,6.827,80.083,0.68,medium,curries; rice; sweets,Rampa is used in Sri Lankan cooking,llm_seeded_curated
+shiso,Shiso,Japan,Tokyo,Kanto Japan,35.6762,139.6503,0.9,high,sushi garnish; umeboshi; tempura,Strong Japanese association as aojiso and akajiso,llm_seeded_curated
+shiso,Shiso,Japan,Kyoto,Kansai Japan,35.0116,135.7681,0.86,high,pickles; garnishes; seasonal dishes,Common in refined and home cooking,llm_seeded_curated
+shiso,Shiso,Japan,Hokkaido,Northern Japan,43.2203,142.8635,0.7,medium,garnishes; pickles; seafood,Common but less region-defining,llm_seeded_curated
+shiso,Shiso,South Korea,Seoul Capital Area,Korea,37.5665,126.978,0.72,medium,ssam; pickles; banchan,Korean perilla is related and heavily used,llm_seeded_curated
+shiso,Shiso,South Korea,Jeolla,Korea,35.7175,127.153,0.76,medium,perilla kimchi; ssam; stews,Perilla leaves common in regional food,llm_seeded_curated
+shiso,Shiso,China,Zhejiang,East China,29.1832,120.0934,0.48,low,pickles; aromatics; regional dishes,Perilla use exists but is less prominent in this seed set,llm_seeded_curated
+fenugreek_leaves,Fenugreek leaves,India,Punjab,North India,31.1471,75.3412,0.9,high,saag; methi paratha; methi chicken,Fresh methi is strongly associated with Punjabi cooking,llm_seeded_curated
+fenugreek_leaves,Fenugreek leaves,India,Gujarat,West India,22.2587,71.1924,0.86,high,methi thepla; shaak; undhiyu,Common green and dried herb,llm_seeded_curated
+fenugreek_leaves,Fenugreek leaves,India,Rajasthan,North India,27.0238,74.2179,0.78,high,methi dana dishes; methi roti; sabzi,Common fresh and dried usage,llm_seeded_curated
+fenugreek_leaves,Fenugreek leaves,India,Uttar Pradesh,North India,26.8467,80.9462,0.74,medium,methi aloo; paratha; dal,Common seasonal green,llm_seeded_curated
+fenugreek_leaves,Fenugreek leaves,Pakistan,Punjab,Punjab,31.1704,72.7097,0.84,high,methi gosht; paratha; saag,Common in Punjabi Pakistani cooking,llm_seeded_curated
+fenugreek_leaves,Fenugreek leaves,Pakistan,Sindh,Sindh,25.8943,68.5247,0.68,medium,methi fish; saag; flatbreads,Present in regional home cooking,llm_seeded_curated
+fenugreek_leaves,Fenugreek leaves,Afghanistan,Kabul Province,Afghanistan,34.5553,69.2075,0.64,medium,stews; breads; dried herb mixes,Dried fenugreek appears in regional foods,llm_seeded_curated
+betel_leaves,Betel leaves,India,West Bengal,East India,22.9868,87.855,0.82,high,paan; paturi variants; condiments,Important as paan and occasional culinary wrapper,llm_seeded_curated
+betel_leaves,Betel leaves,India,Odisha,East India,20.9517,85.0985,0.72,medium,paan; temple food contexts; condiments,Culturally prominent and sometimes culinary,llm_seeded_curated
+betel_leaves,Betel leaves,India,Tamil Nadu,South India,11.1271,78.6569,0.68,medium,vetrilai; chutneys; ceremonial meals,More ceremonial than everyday cooking but regionally visible,llm_seeded_curated
+betel_leaves,Betel leaves,Bangladesh,Dhaka Division,Bengal,23.8103,90.4125,0.84,high,paan; bhorta variants; snacks,Strong cultural and culinary presence,llm_seeded_curated
+betel_leaves,Betel leaves,Myanmar,Yangon Region,Southeast Asia,16.8409,96.1735,0.76,medium,lahpet-adjacent snacks; wraps; betel quid,Culturally common leaf use,llm_seeded_curated
+betel_leaves,Betel leaves,Thailand,Central Thailand,Southeast Asia,13.7563,100.5018,0.72,medium,miang kham; wraps,Used in leaf-wrapped snacks,llm_seeded_curated
+betel_leaves,Betel leaves,Vietnam,Ho Chi Minh City,Southeast Asia,10.8231,106.6297,0.7,medium,bò lá lốt; wraps,Leaf-wrapped grilled beef is strongly recognizable,llm_seeded_curated
+betel_leaves,Betel leaves,Indonesia,Bali,Southeast Asia,-8.3405,115.092,0.5,low,ceremonial uses; snacks,More cultural than broad culinary in this seed row,llm_seeded_curated

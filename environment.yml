@@ -1,0 +1,15 @@
+name: foodmap
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - folium
+  - ipywidgets
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - branca
+  - geopandas
+  - shapely
+  - pyogrio

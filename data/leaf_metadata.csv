@@ -1,0 +1,13 @@
+leaf_id,leaf_name,color,category,description
+curry_leaves,Curry leaves,#2e7d32,aromatic leaf,Fragrant leaves strongly associated with South Indian and Sri Lankan cooking.
+mint,Mint,#00a676,herb,"Cooling herb used across South Asia, the Middle East, North Africa, Europe, and the Americas."
+parsley,Parsley,#66bb6a,herb,"Fresh herb common in Mediterranean, European, and Middle Eastern cuisines."
+basil,Basil,#43a047,herb,Aromatic herb used in Mediterranean and Southeast Asian cooking.
+cilantro,Coriander/cilantro leaves,#26a69a,herb,"Fresh coriander leaves used widely across South Asia, Latin America, Southeast Asia, China, and the Middle East."
+bay_leaves,Bay leaves,#8d6e63,spice leaf,"Dried aromatic leaves used in stews, rice dishes, soups, and braises."
+kaffir_lime_leaves,Kaffir lime leaves,#7cb342,aromatic leaf,Citrusy leaves central to mainland and island Southeast Asian cooking.
+banana_leaves,Banana leaves,#558b2f,wrapper,"Large leaves used for steaming, wrapping, serving, and flavoring food."
+pandan,Pandan,#9ccc65,aromatic leaf,Sweet grassy aromatic leaf used in Southeast Asian sweets and rice dishes.
+shiso,Shiso,#8e24aa,herb,Perilla leaf strongly associated with Japanese and Korean foodways.
+fenugreek_leaves,Fenugreek leaves,#c0ca33,herb,"Bitter-savory greens used fresh or dried in North Indian, Pakistani, Afghan, and related cuisines."
+betel_leaves,Betel leaves,#00695c,culinary and ceremonial leaf,"Pungent leaves used in snacks, wraps, condiments, and ceremonial contexts across South and Southeast Asia."
