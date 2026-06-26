@@ -57,7 +57,7 @@ Keep existing mapping/data packages:
 - `pyogrio`
 - `branca`
 
-Update both `requirements.txt` and `environment.yml` so either pip or conda users can run the app.
+Keep `requirements.txt` as the Streamlit Cloud dependency file. Put optional Conda setup files under names Streamlit Cloud will not auto-select, such as `environment-local.yml` and `environment-notebooks.yml`, so deployment uses pip instead of getting stuck in Conda's solver.
 
 ### 2. Create a Streamlit Workflow Notebook
 

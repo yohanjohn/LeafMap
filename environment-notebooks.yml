@@ -1,4 +1,4 @@
-name: foodmap
+name: foodmap-notebooks
 channels:
   - conda-forge
 dependencies:

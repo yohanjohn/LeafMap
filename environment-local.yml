@@ -1,0 +1,12 @@
+name: foodmap
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - folium
+  - streamlit
+  - branca
+  - pip
+  - pip:
+      - streamlit-folium
