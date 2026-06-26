@@ -46,6 +46,9 @@ def render_leaf_map(
 
 def add_overlap_markers(map_obj: folium.Map, overlap_df: pd.DataFrame) -> None:
     for row in overlap_df.itertuples(index=False):
+        is_triple_or_more = row.leaf_count >= 3
+        color = "#1b8f3a" if is_triple_or_more else "#111111"
+        weight = 6 if is_triple_or_more else 3
         popup = (
             f"<strong>Overlap: {html.escape(row.admin1)}, {html.escape(row.country)}</strong><br>"
             f"Leaves: {html.escape(row.leaves)}<br>"
@@ -54,8 +57,8 @@ def add_overlap_markers(map_obj: folium.Map, overlap_df: pd.DataFrame) -> None:
         folium.CircleMarker(
             location=[row.latitude, row.longitude],
             radius=8 + row.leaf_count * 3,
-            color="#111111",
-            weight=3,
+            color=color,
+            weight=weight,
             fill=False,
             popup=folium.Popup(popup, max_width=340),
             tooltip=f"Overlap: {row.leaf_count} selected leaves",
@@ -109,6 +112,7 @@ def _add_legend(
       <strong>Selected leaves</strong>
       {items}
       <div style=\"margin-top:6px;\"><span style=\"border:2px solid #111; border-radius:50%; width:12px; height:12px; display:inline-block;\"></span> overlap</div>
+      <div><span style=\"border:4px solid #1b8f3a; border-radius:50%; width:12px; height:12px; display:inline-block;\"></span> 3+ overlap</div>
     </div>
     """
     map_obj.get_root().html.add_child(folium.Element(legend))

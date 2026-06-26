@@ -15,4 +15,7 @@ env/
 
 .streamlit/secrets.toml
 
+data/*.draft.csv
+data/drafts/
+
 *.log
